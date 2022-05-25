@@ -9,7 +9,7 @@ jobs:
   buildAndDeployTos3:
                   runs-on: ubuntu-latest
                   steps:
-                    - name: buildingApplication
+                    # - name: buildingApplication
                     - uses: actions/checkout@v1
                     - run: npm i
                     # - run:  npm run buid
